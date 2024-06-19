@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIVY CRM WEBAPP</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="loginContainer">
+        <div class="capaLogin">
+            <img src="img/capa (1).png" alt="capa">
+        </div>
+        <div class="logo">
+            <img src="img/logo.png" alt="logotipo">
+        </div>
+        <div class="areaLogin">
+            <h1>GIVY CRM WEBAPP</h1>
+            <p id="givy">@Givy</p>
+            <p id="text">The CRM platform that is simple to set up and easy to use Givy lets you handle all your customers, campaign, and coupon in one place.</p>
+            <form>
+                <div class="inputLogin">
+                    <label for="numeroEmail"><i class="fas fa-phone"></i></label>
+                    <input type="text" id="numeroEmail" placeholder="Phone number or Email">
+                </div>
+                <div class="inputLogin">
+                    <label for="senha"><i class="fas fa-lock"></i></label>
+                    <input type="password" id="senha" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="lembrar">
+                    <label for="lembrar">Remember me</label>
+                    <a href="#" id="esqueceuSenhaLink">Forgot Password?</a>
+                </div>
+                <button type="button" id="signInBtn" class="btn">Sign In</button>
+                <button type="button" id="createMembershipBtn" class="btn criarAssinatura">Create Membership</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

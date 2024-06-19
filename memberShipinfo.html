@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Information</title>
+    <link rel="stylesheet" href="memberShipinfo.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="membershipContainer">
+        <h1>MEMBERSHIP INFO</h1>
+        <form id="membershipForm">
+            <div class="inputGroup">
+                <input type="text" id="firstName" placeholder="First Name">
+            </div>
+            <div class="inputGroup">
+                <input type="text" id="lastName" placeholder="Last Name">
+            </div>
+            <div class="inputGroup">
+                <input type="email" id="email" placeholder="Email">
+            </div>
+            <div class="inputGroup">
+                <div style="display: flex;">
+                    <span class="countryCode">+66</span>
+                    <input type="text" id="phone" placeholder="Phone" class="phoneInput">
+                </div>
+            </div>
+            <div class="inputGroup">
+                <input type="password" id="password" placeholder="Password">
+            </div>
+            <div class="inputGroup">
+                <input type="password" id="confirmPassword" placeholder="Confirm Password">
+            </div>
+            <button type="button" id="confirmBtn">Confirm</button>
+        </form>
+        <div class="alternate-signin">
+            <a href="#">Sign in with a different account</a>
+        </div>
+        <div class="social-buttons">
+            <button class="apple"><i class="fab fa-apple"></i></button>
+            <button class="facebook"><i class="fab fa-facebook-f"></i></button>
+            <button class="google"><i class="fab fa-google"></i></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

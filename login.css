@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.loginContainer {
+    width: 100%; 
+    max-width: 375px; 
+    height: 812px;
+    margin: 0 auto;
+    padding: 0; 
+    background-color: #131318;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; 
+}
+
+
+.capaLogin {
+    width: 100%;
+    height: 200px; 
+    margin-bottom: 40px; 
+    position: relative; 
+}
+
+.capaLogin img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 8px 8px 0 0; 
+}
+
+
+.logo {
+    position: absolute; 
+    top: 180px; 
+    right: 20px; 
+    width: 74px;
+    height: 74px;
+    flex-shrink: 0;
+    background-color: #131318; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.areaLogin {
+    padding: 0 20px; 
+}
+
+
+h1 {
+    font-size: 34px;
+    font-family: "inter", sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-align: left; 
+}
+
+#givy {
+    font-size: 18px;
+    font-family: "inter", sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-align: left; 
+}
+
+#text {
+    font-size: 14px;
+    font-family: "inter", sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-align: left; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.inputLogin {
+    width: 100%; 
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.inputLogin label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+    pointer-events: none; 
+}
+
+.inputLogin label i {
+    font-size: 18px; 
+}
+
+.inputLogin input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 30px; 
+    background-color: transparent;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid var(--Gray-2, #4F4F4F);
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; 
+}
+
+.inputLogin input:focus {
+    outline: none;
+    border-color: #6F5FE7;
+}
+
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#lembrar {
+    margin-right: 5px;
+    vertical-align: middle;
+    color: var(--Colors-White, #FFF);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+}
+
+label[for="lembrar"] {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#esqueceuSenhaLink {
+    margin-left: auto;
+    text-decoration: none;
+    color: var(--Colors-White, #FFF);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+    text-decoration-line: underline;
+}
+
+#esqueceuSenhaLink:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin: 10px auto; 
+    padding: 20px 10px;
+    gap: 10px;
+    border: none;
+    background: #6F5FE7;
+    color: var(--Colors-White, #FFF);
+    border-radius: 10px;
+    cursor: pointer;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+}
+
+.criarAssinatura {
+    background-color: transparent;
+    color: #6F5FE7;
+    border: 1px solid #6e44ff;
+}
+
+button:hover {
+    background-color: #6e44ff;
+    color: #FFF;
+}
